@@ -1,0 +1,26 @@
+stringA = "01100000001"
+
+b = '10'
+count = 0
+for char in stringA:
+   if char not in b:
+      count = 1
+      break
+   else:
+      pass
+if count:
+   print("StringA is not a binary string")
+else:
+   print("StringA is a binary string")
+
+stringB = "01200000001"
+for char in stringB:
+   if char not in b:
+      count = 1
+      break
+   else:
+      pass
+if count:
+   print("StringB is not a binary string")
+else:
+   print("StringB is a binary string")
